@@ -1,2 +1,40 @@
-# qwen-code-gigachat-case5
-Кейс 5: Адаптация Qwen Code под GigaChat как AI coding assistant
+# Кейс 5: Адаптация Qwen Code под GigaChat
+
+
+
+### Описание проекта
+
+
+
+Интеграция российской LLM GigaChat (от Сбера) в AI-ассистент для разработчиков Qwen Code через прокси-сервер gpt2giga. Проект выполнен в рамках корпоративного кейса для банка с целью обеспечения работы с кодом без выхода данных за пределы контура.
+
+
+
+### Архитектура решения
+
+
+
+* Qwen Code - AI-ассистент для разработчиков
+* gpt2giga - прокси от ai-forever (аффилирован со Сбером), транслирует OpenAI-формат в GigaChat API
+* GigaChat API - российская LLM от Сбера
+
+
+
+### Участники команды
+
+
+
+|Участник|Зона ответственности|Отчёт|
+|-|-|-|
+|Участник 1|Базовый чат + Streaming (короткие ответы)|\[reports/participant1/](./reports/participant1/)|
+|Участник 2|Применение правок (edit format)|\[reports/participant2/](./reports/participant2/)|
+|Участник 3|Tool Use + File Operations|\[reports/participant3/](./reports/participant3/)|
+|Данилов Егор Дмитриевич|Streaming (длинные ответы) + Генерация тестов|\[reports/participant4/](./reports/participant4/)|
+|Участник 5|Repo Map + Subagents + Большой контекст|\[reports/participant5/](./reports/participant5/)|
+
+
+
+
+
+
+
