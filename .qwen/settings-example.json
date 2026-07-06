@@ -1,0 +1,22 @@
+{
+  "modelProviders": {
+    "openai": [
+      {
+        "id": "GigaChat-2-Max",
+        "name": "GigaChat-2-Max",
+        "baseUrl": "http://localhost:8090/",
+        "envKey": "GPT2GIGA_API_KEY"
+      }
+    ]
+  },
+  "security": {
+    "auth": {
+      "selectedType": "openai"
+    }
+  },
+  "model": {
+    "name": "GigaChat-2-Max",
+    "baseUrl": "http://localhost:8090/"
+  },
+  "$version": 4
+}

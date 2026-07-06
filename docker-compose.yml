@@ -1,0 +1,8 @@
+services:
+  gpt2giga-local:
+    container_name: gpt2giga
+    build: ./gpt2giga
+    env_file:
+      - .env
+    ports:
+      - "${GPT2GIGA_PORT:-8090}:${GPT2GIGA_PORT:-8090}"
