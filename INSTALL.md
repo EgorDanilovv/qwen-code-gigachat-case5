@@ -108,34 +108,12 @@ docker compose up -d
 npm install -g qwen-code
 ```
 
-### 5.2. Настрой конфигурацию Qwen Code
-1. Создай папку `.qwen` в домашней директории (если её нет):
-   - Windows: `%USERPROFILE%\.qwen\`
-   - Linux/macOS: `~/.qwen/`
-2. Скопируй содержимое файла `qwen-settings.json` из репозитория в `settings.json` в папке `.qwen`.
-
-### 5.3. Установи переменную окружения API-ключа
-```bash
-# Windows (cmd)
-set GPT2GIGA_API_KEY=team-super-secret-key
-
-# Windows (PowerShell)
-$env:GPT2GIGA_API_KEY="team-super-secret-key"
-
-# Linux/macOS
-export GPT2GIGA_API_KEY=team-super-secret-key
-```
-
-### 5.4. Запусти Qwen Code
-```bash
-qwen
-```
-
-При первом запуске, если модель не появилась:
+### 5.2. При первом запуске:
 1. Выбери **Custom Provider**.
 2. Укажи `http://localhost:8090` как базовый URL.
-3. Введи `GigaChat-2-Max` как имя модели.
-4. Выбери эту модель для работы.
+3. API-ключ можно пропустить (просто нажми Enter)
+4. Введи `GigaChat-2-Max` как имя модели.
+5. Выбери эту модель для работы.
 
 ---
 
