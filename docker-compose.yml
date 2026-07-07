@@ -1,0 +1,9 @@
+services:
+  gpt2giga:
+    image: gigateam/gpt2giga:latest
+    container_name: gpt2giga
+    ports:
+      - "8090:8090"
+    env_file:
+      - .env
+    restart: unless-stopped

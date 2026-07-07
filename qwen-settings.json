@@ -1,0 +1,19 @@
+{
+  "modelProviders": {
+    "openai": [
+      {
+        "id": "GigaChat-2-Max",
+        "name": "GigaChat-Max",
+        "description": "GigaChat-2-Max via gpt2giga proxy",
+        "envKey": "GPT2GIGA_API_KEY",
+        "baseUrl": "http://localhost:8090",
+        "generationConfig": {
+          "timeout": 60000,
+          "samplingParams": {
+            "temperature": 0.2
+          }
+        }
+      }
+    ]
+  }
+}
