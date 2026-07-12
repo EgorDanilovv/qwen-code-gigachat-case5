@@ -24,6 +24,7 @@ function greet(name) {
 }
 
 module.exports = { calc, greet };
+```
 
 ## Сценарий 1: Точечное переименование функции - Не работает
 
