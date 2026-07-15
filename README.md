@@ -27,7 +27,7 @@
 |Участник|Зона ответственности|Отчёт|
 |-|-|-|
 |Участник 1|Базовый чат + Streaming (короткие ответы)|\[reports/participant1/]|
-|Участник 2|Применение правок (edit format)|\[reports/participant2/]|
+|Кокорин Артём Владимирович|Применение правок (edit format)|\[reports/participant2/]|
 |Участник 3|Tool Use + File Operations|\[reports/participant3/]|
 |Данилов Егор Дмитриевич|Streaming (длинные ответы) + Генерация тестов|\[reports/participant4/]|
 |Участник 5|Repo Map + Subagents + Большой контекст|\[reports/participant5/]|
